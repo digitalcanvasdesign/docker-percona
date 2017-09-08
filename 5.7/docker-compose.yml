@@ -1,0 +1,6 @@
+version: "2"
+
+services:
+  percona:
+    image: digitalcanvasdesign/percona:5.7
+    build: ./
